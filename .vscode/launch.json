@@ -10,6 +10,27 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        }
+        },
+        {
+            "name": "Windows Example",
+            "type": "python",
+            "request": "launch",
+            "program": "windows/test.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Linux Example",
+            "type": "python",
+            "request": "launch",
+            "program": "linux/test.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Cross Entropy Example",
+            "type": "python",
+            "request": "launch",
+            "program": "cem/cem.py",
+            "console": "integratedTerminal"
+        },
     ]
 }
